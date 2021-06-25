@@ -1,6 +1,4 @@
-                                                ![python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg) 
-
-
+ ![python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
 
 ## Listes
 
