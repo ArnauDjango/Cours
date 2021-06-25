@@ -48,7 +48,41 @@ print(result)
 le result donnera la moyenne des notes
 
 #### random
+
+##### randint
+```
+import random
+
+for i in range(0, 100):
+    valeur = random.randint(0, 100)
+    print(valeur)
+```
 ##### shuffle
 Cette fonction du module random sert a mélange une liste
 ` random.shuffle(notes) `
+
+## boucles
+
+### for
+```
+for num_client in range(1, 6):
+    print("Vous etes le client nº ", num_client)
+
+# blacklist
+
+blacklist = ['arnaud@gmail.com']
+
+# for each: pour chaque valeur d'une liste donnée
+emails = [ 'arnaud@gmail.com', 'dimitri@gmail.com', 'rosane@gmail.com', 'nikita@gmail.com']
+
+for email in emails:
+    if email in blacklist:
+        print("Email {} banni, envoi impossible".format(email))
+        continue # passe au prochain for 
+    print("Email envoyé a : " , email)
+
+#break sort de la boucle
+```
+
+
 
