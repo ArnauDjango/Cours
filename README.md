@@ -2,4 +2,4 @@
 
 ## Listes
 
-'sudo apt get remove'
+` Ceci est un code `
