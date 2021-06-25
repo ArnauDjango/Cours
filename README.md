@@ -1,7 +1,8 @@
  ![python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
 
 ## Listes
-
+### trier liste
+` sorted(lilist)` liste trié en ordre croissant
 ### Acceder a liste
 ` list[len(list) - 1] ` va au derniere element de la liste
 ### Supprimer la liste
@@ -65,8 +66,17 @@ Cette fonction du module random sert a mélange une liste
 
 ### for
 ```
-for num_client in range(1, 6):
-    print("Vous etes le client nº ", num_client)
+import random
+
+trouve = False
+
+valeur = random.randint(0, 100)
+print(valeur)
+while trouve == False:
+    num = int(input(" Entre un numero entre 1 et 100 "))
+    if num == valeur:
+        print("Bravo tu as touvé le numero", num)
+        trouve = True
 
 # blacklist
 
